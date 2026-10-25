@@ -1,0 +1,6 @@
+{
+  "name": "Besto Container Industries - BESTOSIA®",
+  "description": "Besto Container Industries (Brand: BESTOSIA®) - Complete industrial packaging manufacturer and reconditioner of M.S. Barrels, G.I. Drums, HDPE Barrels, and 1000L IBC Tanks with Palghar ZLD facility.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

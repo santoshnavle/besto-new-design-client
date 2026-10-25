@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Besto Container Industries - Commercial RFQ & Palghar Plant</title>
+  <meta name="description" content="Contact Besto Container Industries (BESTOSIA®). Request a direct commercial proforma quote or visit our Palghar ZLD manufacturing plant at Dewan & Sons Udyog Nagar. WhatsApp: +91 9833853196.">
+  <meta property="og:title" content="Contact Us | Besto Container Industries (BESTOSIA®)">
+  <meta property="og:description" content="Request a commercial rate card or schedule a plant visit. Palghar manufacturing campus, GSTIN 27AACFB8837E1ZG.">
+  <meta property="og:type" content="website">
+
+  <!-- Bootstrap 5.3.3 CSS via jsDelivr CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  
+  <!-- FontAwesome 6.5.2 via cdnjs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  
+  <!-- Google Fonts: Inter & Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --besto-orange: #F58220;
+      --besto-orange-hover: #E06D0B;
+      --industrial-black: #121212;
+      --surface-charcoal: #1E2022;
+      --light-canvas: #F8F9FA;
+      --border-subtle: #2C3034;
+      --eco-green: #059669;
+      --eco-green-light: #10B981;
+      --text-main: #1e293b;
+      --text-muted-custom: #94a3b8;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--text-main);
+      background-color: var(--light-canvas);
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4, h5, .brand-font {
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: -0.02em;
+    }
+
+    .top-bar {
+      background-color: #0A0A0A;
+      font-size: 0.85rem;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .top-bar a {
+      color: #cbd5e1;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    .top-bar a:hover {
+      color: var(--besto-orange);
+    }
+
+    .navbar-custom {
+      background-color: var(--industrial-black);
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 25px rgba(0, 0, 0, 0.45);
+      border-bottom: 2px solid rgba(245, 130, 32, 0.3);
+    }
+    .navbar-custom .nav-link {
+      color: #e2e8f0;
+      font-weight: 500;
+      font-size: 0.95rem;
+      padding: 0.6rem 1rem;
+      transition: color 0.2s ease;
+    }
+    .navbar-custom .nav-link:hover,
+    .navbar-custom .nav-link.active {
+      color: var(--besto-orange);
+    }
+    .dropdown-menu-dark-custom {
+      background-color: var(--surface-charcoal);
+      border: 1px solid var(--border-subtle);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+    .dropdown-menu-dark-custom .dropdown-item {
+      color: #cbd5e1;
+      padding: 0.65rem 1.25rem;
+      font-size: 0.9rem;
+    }
+    .dropdown-menu-dark-custom .dropdown-item:hover {
+      background-color: rgba(245, 130, 32, 0.15);
+      color: var(--besto-orange);
+    }
+
+    .brand-logo-container {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+    .brand-title-main {
+      font-weight: 900;
+      font-size: 1.15rem;
+      line-height: 1.15;
+      color: #ffffff;
+      margin: 0;
+      letter-spacing: 0.02em;
+    }
+    .brand-sub-badge {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--besto-orange);
+      text-transform: uppercase;
+    }
+    .bg-besto-orange {
+      background-color: var(--besto-orange) !important;
+      color: #ffffff !important;
+    }
+
+    .btn-besto-orange {
+      background-color: var(--besto-orange);
+      color: #ffffff;
+      font-weight: 700;
+      border: none;
+      padding: 0.75rem 1.75rem;
+      border-radius: 6px;
+      transition: all 0.25s ease;
+      box-shadow: 0 4px 14px rgba(245, 130, 32, 0.35);
+    }
+    .btn-besto-orange:hover {
+      background-color: var(--besto-orange-hover);
+      color: #ffffff;
+      transform: translateY(-2px);
+    }
+
+    .page-header-banner {
+      background: linear-gradient(135deg, rgba(18, 18, 18, 0.95) 0%, rgba(30, 32, 34, 0.92) 100%),
+                  url('https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=1920&q=80') center center / cover no-repeat;
+      padding: 70px 0;
+      color: #ffffff;
+      border-bottom: 4px solid var(--besto-orange);
+    }
+    .breadcrumb a {
+      color: var(--besto-orange);
+      text-decoration: none;
+    }
+
+    .section-py {
+      padding: 85px 0;
+    }
+
+    /* Form Container Card */
+    .contact-form-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 2.5rem;
+      box-shadow: 0 10px 32px rgba(0, 0, 0, 0.06);
+    }
+
+    /* Plant Info Card */
+    .plant-info-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 2.2rem;
+      box-shadow: 0 10px 32px rgba(0, 0, 0, 0.06);
+      margin-bottom: 1.75rem;
+    }
+    .plant-info-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 1.25rem;
+    }
+    .plant-info-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 8px;
+      background-color: rgba(245, 130, 32, 0.12);
+      color: var(--besto-orange);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.15rem;
+      flex-shrink: 0;
+    }
+
+    .map-container-box {
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 10px 32px rgba(0, 0, 0, 0.06);
+      height: 280px;
+    }
+
+    .corporate-footer {
+      background-color: var(--industrial-black);
+      color: #cbd5e1;
+      padding: 85px 0 35px;
+      font-size: 0.92rem;
+      border-top: 4px solid var(--besto-orange);
+    }
+    .footer-title {
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 1.15rem;
+      margin-bottom: 1.4rem;
+      position: relative;
+      padding-bottom: 0.6rem;
+    }
+    .footer-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 36px;
+      height: 3px;
+      background-color: var(--besto-orange);
+    }
+    .footer-links {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+    .footer-links li {
+      margin-bottom: 0.75rem;
+    }
+    .footer-links a {
+      color: var(--text-muted-custom);
+      text-decoration: none;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .footer-links a:hover {
+      color: var(--besto-orange);
+      transform: translateX(4px);
+    }
+    .footer-bottom {
+      border-top: 1px solid var(--border-subtle);
+      margin-top: 50px;
+      padding-top: 25px;
+      font-size: 0.85rem;
+      color: #64748b;
+    }
+
+    .floating-whatsapp {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      width: 58px;
+      height: 58px;
+      background-color: var(--eco-green);
+      color: #ffffff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.9rem;
+      box-shadow: 0 8px 25px rgba(5, 150, 105, 0.4);
+      z-index: 1000;
+      text-decoration: none;
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .floating-whatsapp:hover {
+      transform: scale(1.1) translateY(-3px);
+      color: #ffffff;
+      background-color: var(--eco-green-light);
+    }
+
+    .scroll-to-top {
+      position: fixed;
+      bottom: 25px;
+      left: 25px;
+      width: 44px;
+      height: 44px;
+      background-color: var(--surface-charcoal);
+      color: #ffffff;
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      z-index: 999;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+    .scroll-to-top:hover {
+      background-color: var(--besto-orange);
+      color: #ffffff;
+    }
+
+    .form-control:focus, .form-select:focus {
+      border-color: var(--besto-orange);
+      box-shadow: 0 0 0 0.25rem rgba(245, 130, 32, 0.25);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1. TOP UTILITY BAR -->
+  <div class="top-bar py-2 d-none d-md-block text-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7 col-md-8">
+          <div class="d-flex align-items-center flex-wrap gap-3">
+            <span>
+              <i class="fa-solid fa-phone me-1 text-warning"></i>
+              <a href="tel:+919833853196" class="fw-semibold">+91 9833853196</a>
+            </span>
+            <span class="text-secondary">|</span>
+            <span>
+              <i class="fa-solid fa-envelope me-1 text-warning"></i>
+              <a href="mailto:info@bestocontainer.com">info@bestocontainer.com</a>
+            </span>
+            <span class="text-secondary">|</span>
+            <span class="badge fw-bold px-2 py-1 text-white" style="background-color: var(--eco-green);">
+              <i class="fa-solid fa-check-double me-1"></i> MPCB AUTHORIZED & ISO CERTIFIED
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-4 text-end">
+          <div class="d-flex align-items-center justify-content-end gap-3">
+            <span class="small text-light">
+              <i class="fa-solid fa-seedling me-1" style="color: var(--eco-green-light);"></i> Palghar ZLD Operating Facility
+            </span>
+            <a href="https://wa.me/919833853196?text=Hello%20Besto%20Container%20Industries,%20I%20am%20interested%20in%20an%20industrial%20packaging%20quote." target="_blank" class="text-light" title="WhatsApp Direct">
+              <i class="fa-brands fa-whatsapp fs-6" style="color: var(--eco-green-light);"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="text-light" title="LinkedIn">
+              <i class="fa-brands fa-linkedin fs-6 text-secondary"></i>
+            </a>
+            <a href="contact.html" class="text-light" title="Palghar Plant Location">
+              <i class="fa-solid fa-location-dot fs-6 text-secondary"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. STICKY NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top py-3">
+    <div class="container">
+      <a class="brand-logo-container" href="index.html">
+        <img src="images/logo.png" alt="Besto Container" height="52" class="me-2" onerror="this.style.display='none'; document.getElementById('fallbackLogo').classList.remove('d-none');">
+        <span id="fallbackLogo" class="badge bg-besto-orange fs-5 px-3 py-2 fw-bold text-uppercase me-2 d-none">BESTO</span>
+        <div>
+          <h1 class="brand-title-main">BESTO CONTAINER</h1>
+        </div>
+      </a>
+
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="product-listing.html" id="productDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark-custom" aria-labelledby="productDropdown">
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-cmp"><i class="fa-solid fa-drum me-2 text-warning"></i>Bestosia CMP (200L Close Mouth)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-otec"><i class="fa-solid fa-box-open me-2 text-warning"></i>Bestosia OTEC (200L Open Top Epoxy)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-otp"><i class="fa-solid fa-box-open me-2 text-warning"></i>Bestosia OTP (200L Open Top Plain)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-gicm"><i class="fa-solid fa-shield me-2 text-light"></i>Bestosia GICM (200L Galvanized Iron)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-hdpec"><i class="fa-solid fa-flask-round-potion me-2 text-info"></i>Bestosia HDPEC (200L HDPE Plastic)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-ibc-max"><i class="fa-solid fa-cubes me-2 text-success"></i>Bestosia IBC MAX (1,000L IBC Tank)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-ibc-premium"><i class="fa-solid fa-star me-2 text-warning"></i>Bestosia IBC Premium (Pharma API Grade)</a></li>
+              <li><hr class="dropdown-divider border-secondary"></li>
+              <li><a class="dropdown-item" href="product-listing.html#virgin-supply"><i class="fa-solid fa-warehouse me-2 text-warning"></i>Brand-New Industrial Packaging</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="facility-zld.html">Facility & ZLD</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+            <a href="#rfq" class="btn btn-besto-orange fw-bold">
+              <i class="fa-solid fa-file-invoice me-1"></i> Request A Quote
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB HEADER BANNER -->
+  <header class="page-header-banner">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-2">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active text-white" aria-current="page">Contact Us</li>
+        </ol>
+      </nav>
+      <h1 class="display-5 fw-bold mb-2">Contact Us & Commercial RFQ</h1>
+      <p class="lead text-light opacity-75 mb-0" style="max-width: 800px;">
+        Request direct proforma quotation or connect directly with our Palghar factory dispatch desk via WhatsApp.
+      </p>
+    </div>
+  </header>
+
+  <!-- 2-COLUMN CONTACT LAYOUT -->
+  <section class="section-py" id="rfq">
+    <div class="container">
+      <div class="row g-5">
+        
+        <!-- Left Column: Interactive RFQ Form -->
+        <div class="col-lg-7">
+          <div class="contact-form-card">
+            <span class="badge fw-bold px-3 py-1 mb-2 text-white" style="background-color: var(--industrial-black);">DIRECT FACTORY RATES</span>
+            <h3 class="fw-bold mb-2" style="color: var(--industrial-black);">Commercial Quotation Inquiry</h3>
+            <p class="text-secondary small mb-4">Complete this form to receive proforma pricing, delivery schedules, and technical datasheets.</p>
+
+            <form id="contactPageForm" onsubmit="handleContactSubmit(event)">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="cName" class="form-label small fw-bold text-dark">Full Name <span class="text-danger">*</span></label>
+                  <div class="input-group">
+                    <span class="input-group-text bg-light"><i class="fa-solid fa-user text-muted"></i></span>
+                    <input type="text" class="form-control" id="cName" required placeholder="e.g. Ramesh Patel">
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="cCompany" class="form-label small fw-bold text-dark">Company Name <span class="text-danger">*</span></label>
+                  <div class="input-group">
+                    <span class="input-group-text bg-light"><i class="fa-solid fa-building text-muted"></i></span>
+                    <input type="text" class="form-control" id="cCompany" required placeholder="e.g. Apex Specialty Chemicals Ltd.">
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="cEmail" class="form-label small fw-bold text-dark">Corporate Email <span class="text-danger">*</span></label>
+                  <div class="input-group">
+                    <span class="input-group-text bg-light"><i class="fa-solid fa-envelope text-muted"></i></span>
+                    <input type="email" class="form-control" id="cEmail" required placeholder="procurement@company.com">
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="cPhone" class="form-label small fw-bold text-dark">Phone / WhatsApp <span class="text-danger">*</span></label>
+                  <div class="input-group">
+                    <span class="input-group-text bg-light">+91</span>
+                    <input type="tel" class="form-control" id="cPhone" required placeholder="98XXXXXXXX" pattern="[0-9]{10}" title="Enter 10 digit number">
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="cPincode" class="form-label small fw-bold text-dark">Destination Pincode <span class="text-danger">*</span></label>
+                  <div class="input-group">
+                    <span class="input-group-text bg-light"><i class="fa-solid fa-location-dot text-muted"></i></span>
+                    <input type="text" class="form-control" id="cPincode" required placeholder="e.g. 401506 (Tarapur MIDC)">
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="cProduct" class="form-label small fw-bold text-dark">Product Required <span class="text-danger">*</span></label>
+                  <div class="input-group">
+                    <span class="input-group-text bg-light"><i class="fa-solid fa-drum text-muted"></i></span>
+                    <select class="form-select" id="cProduct" required>
+                      <option value="" disabled selected>Select container type...</option>
+                      <option value="cmp">Bestosia CMP — M.S. Barrels 200L Close Mouth</option>
+                      <option value="otec">Bestosia OTEC — M.S. Barrels 200L Open Top Epoxy</option>
+                      <option value="otp">Bestosia OTP — M.S. Barrels 200L Open Top Plain</option>
+                      <option value="gicm">Bestosia GICM — G.I. Barrels 200L Galvanized</option>
+                      <option value="hdpec">Bestosia HDPEC — HDPE Barrels 200L (Close/Open)</option>
+                      <option value="ibc_max">Bestosia IBC MAX — 1000L IBC Tanks</option>
+                      <option value="ibc_premium">Bestosia IBC Premium — Pharma API Grade 1000L</option>
+                      <option value="new">Brand-New Industrial Virgin Packaging</option>
+                      <option value="custom">Multiple Containers / Bulk Mix</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="cQty" class="form-label small fw-bold text-dark">Estimated Quantity (Units) <span class="text-danger">*</span></label>
+                  <div class="input-group">
+                    <span class="input-group-text bg-light"><i class="fa-solid fa-calculator text-muted"></i></span>
+                    <select class="form-select" id="cQty" required>
+                      <option value="50 - 100 Units">50 - 100 Units</option>
+                      <option value="100 - 300 Units" selected>100 - 300 Units</option>
+                      <option value="300 - 500 Units (Half Truckload)">300 - 500 Units (Half Truckload)</option>
+                      <option value="500+ Units (Full Truckload)">500+ Units (Full Truckload)</option>
+                      <option value="Recurring Monthly Supply Contract">Recurring Monthly Supply Contract</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="cGrade" class="form-label small fw-bold text-dark">Condition / Grade</label>
+                  <div class="input-group">
+                    <span class="input-group-text bg-light"><i class="fa-solid fa-layer-group text-muted"></i></span>
+                    <select class="form-select" id="cGrade">
+                      <option value="A-Grade Precision Reconditioned (Cost Saver)">A-Grade Precision Reconditioned (Cost Saver)</option>
+                      <option value="Brand-New Virgin UN-Certified">Brand-New Virgin UN-Certified</option>
+                      <option value="Provide Both Rate Comparison">Provide Both Rate Comparison</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="cNotes" class="form-label small fw-bold text-dark">Requirements & Notes (Intended Liquid / Chemical)</label>
+                  <textarea class="form-control" id="cNotes" rows="3" placeholder="Specify chemical name, internal lacquer preference, bung size or custom exterior paint colors..."></textarea>
+                </div>
+
+                <div class="col-12 mt-3">
+                  <button type="submit" id="cSubmitBtn" class="btn btn-besto-orange w-100 fw-bold py-3 fs-6">
+                    <i class="fa-brands fa-whatsapp me-2 fs-5"></i> Submit & Forward Order To WhatsApp (+91 9833853196)
+                  </button>
+                  <p class="text-center small text-muted mt-2 mb-0">
+                    <i class="fa-solid fa-bolt text-warning me-1"></i> Transmits order directly to our Palghar factory dispatch desk via WhatsApp.
+                  </p>
+                </div>
+              </div>
+            </form>
+
+            <!-- Success Container -->
+            <div id="cSuccessBox" class="text-center py-4 d-none">
+              <div class="mb-3" style="color: var(--eco-green);">
+                <i class="fa-solid fa-circle-check display-3"></i>
+              </div>
+              <h4 class="fw-bold text-dark mb-1">Quote Request Dispatched!</h4>
+              <p class="text-muted small mb-3">WhatsApp chat has been prepared with your official RFQ specifications.</p>
+
+              <div class="bg-light p-3 rounded text-start mb-4 border">
+                <div class="d-flex justify-content-between mb-1 small">
+                  <span class="text-muted">RFQ Reference ID:</span>
+                  <span class="fw-bold text-dark" id="cReceiptId">RFQ-2026-9812</span>
+                </div>
+                <div class="d-flex justify-content-between mb-1 small">
+                  <span class="text-muted">Product & Qty:</span>
+                  <span class="fw-bold text-dark" id="cReceiptProduct">-</span>
+                </div>
+                <div class="d-flex justify-content-between mb-1 small">
+                  <span class="text-muted">Delivery Destination:</span>
+                  <span class="fw-bold text-dark" id="cReceiptLocation">-</span>
+                </div>
+                <div class="d-flex justify-content-between small">
+                  <span class="text-muted">Plant Dispatch Desk:</span>
+                  <span class="fw-bold" style="color: var(--eco-green);">+91 9833853196</span>
+                </div>
+              </div>
+
+              <div class="d-flex flex-wrap gap-2 justify-content-center">
+                <a href="#" id="cReceiptWhatsappLink" target="_blank" class="btn fw-bold px-4 py-2 text-white" style="background-color: var(--eco-green);">
+                  <i class="fa-brands fa-whatsapp me-2"></i> Open WhatsApp Chat Now
+                </a>
+                <button type="button" class="btn btn-outline-secondary px-4 py-2" onclick="resetContactForm()">
+                  Submit Another RFQ
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right Column: Physical Plant Address & Info -->
+        <div class="col-lg-5">
+          <div class="plant-info-card">
+            <span class="badge fw-bold px-3 py-1 mb-2 text-white" style="background-color: var(--industrial-black);">PALGHAR PLANT & HEAD OFFICE</span>
+            <h4 class="fw-bold mb-3" style="color: var(--industrial-black);">Facility Coordinates</h4>
+            
+            <div class="plant-info-item">
+              <div class="plant-info-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+              <div>
+                <strong class="d-block text-dark mb-1">Physical Works Address:</strong>
+                <address class="small text-secondary mb-0 leading-normal">
+                  Plot No. 9, Sector C, Dewan & Sons Udyog Nagar, Palghar East - 401404, Maharashtra, India.
+                </address>
+              </div>
+            </div>
+
+            <div class="plant-info-item">
+              <div class="plant-info-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <strong class="d-block text-dark mb-1">Commercial Desk & WhatsApp:</strong>
+                <a href="tel:+919833853196" class="small fw-bold text-decoration-none" style="color: var(--besto-orange);">+91 9833853196</a>
+              </div>
+            </div>
+
+            <div class="plant-info-item">
+              <div class="plant-info-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <strong class="d-block text-dark mb-1">Office Landline:</strong>
+                <a href="tel:02228124189" class="small text-decoration-none text-secondary">022 28124189</a>
+              </div>
+            </div>
+
+            <div class="plant-info-item">
+              <div class="plant-info-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <strong class="d-block text-dark mb-1">Corporate Email:</strong>
+                <a href="mailto:info@bestocontainer.com" class="small text-decoration-none text-secondary">info@bestocontainer.com</a>
+              </div>
+            </div>
+
+            <div class="plant-info-item">
+              <div class="plant-info-icon"><i class="fa-solid fa-receipt"></i></div>
+              <div>
+                <strong class="d-block text-dark mb-1">Statutory Registrations:</strong>
+                <div class="small text-secondary">
+                  <strong>GSTIN:</strong> 27AACFB8837E1ZG<br>
+                  <strong>MPCB CTO:</strong> Authorized ZLD Site
+                </div>
+              </div>
+            </div>
+
+            <div class="plant-info-item mb-0">
+              <div class="plant-info-icon"><i class="fa-solid fa-clock"></i></div>
+              <div>
+                <strong class="d-block text-dark mb-1">Operating Business Hours:</strong>
+                <div class="small text-secondary">
+                  Monday – Saturday: 8:30 AM – 7:30 PM IST<br>
+                  <span class="text-success fw-semibold">24/7 Bulk Truckloading Scheduled on Demand</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Embedded Map Container -->
+          <div class="map-container-box">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.2407519198337!2d72.7667!3d19.6978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be71c6670bfa3f3%3A0x6bfa332617dfb119!2sDewan%20and%20Sons%20Udyog%20Nagar%2C%20Palghar%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4-COLUMN CORPORATE FOOTER -->
+  <footer class="corporate-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <img src="images/logo.png" alt="Besto Container" height="42" class="me-1" onerror="this.style.display='none'; document.getElementById('footerFallbackLogo').classList.remove('d-none');">
+            <span id="footerFallbackLogo" class="badge bg-besto-orange fs-6 px-3 py-2 fw-bold text-uppercase text-white d-none">BESTO</span>
+            <h5 class="fw-bold text-white mb-0">BESTO CONTAINER</h5>
+          </div>
+          <p class="small text-muted-custom mb-3">
+            Besto Container Industries (Brand: BESTOSIA®) was established in 1995 by <strong>Sayeed Ahmed</strong>. A trusted partner in industrial containment, manufacturing M.S. Barrels, G.I. Drums, HDPE Barrels, and 1000L IBC Tanks with Palghar Zero Liquid Discharge sustainability.
+          </p>
+          <div class="small text-light mb-2">
+            <strong>GSTIN:</strong> <span style="color: var(--besto-orange);">27AACFB8837E1ZG</span>
+          </div>
+          <div class="small text-light">
+            <strong>MPCB Consent:</strong> Validated Operating ZLD Site
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6">
+          <h5 class="footer-title">Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> About Us</a></li>
+            <li><a href="product-listing.html"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Product Catalog</a></li>
+            <li><a href="facility-zld.html"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Palghar ZLD Plant</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Contact Us</a></li>
+            <li><a href="#rfq"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Request A Quote</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-title">Container Range</h5>
+          <ul class="footer-links">
+            <li><a href="product-listing.html#bestosia-cmp"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Bestosia CMP (200L Close Mouth)</a></li>
+            <li><a href="product-listing.html#bestosia-otec"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Bestosia OTEC (200L Epoxy Open Top)</a></li>
+            <li><a href="product-listing.html#bestosia-otp"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Bestosia OTP (200L Plain Open Top)</a></li>
+            <li><a href="product-listing.html#bestosia-gicm"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Bestosia GICM (Galvanized 200L)</a></li>
+            <li><a href="product-listing.html#bestosia-hdpec"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Bestosia HDPEC (HM-HDPE 200L)</a></li>
+            <li><a href="product-listing.html#bestosia-ibc-max"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Bestosia IBC MAX (1000L Composite)</a></li>
+            <li><a href="product-listing.html#virgin-supply"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Brand-New Virgin Inventory</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-title">Palghar Plant</h5>
+          <address class="small text-muted-custom mb-3">
+            <i class="fa-solid fa-map-location-dot me-2" style="color: var(--besto-orange);"></i>
+            Plot No. 9, Sector C, Dewan & Sons Udyog Nagar, Palghar East - 401404, Maharashtra, India.
+          </address>
+          <div class="mb-2 small">
+            <i class="fa-solid fa-phone me-2" style="color: var(--besto-orange);"></i>
+            <a href="tel:+919833853196" class="text-light fw-bold">+91 9833853196</a>
+          </div>
+          <div class="mb-2 small">
+            <i class="fa-solid fa-phone me-2" style="color: var(--besto-orange);"></i>
+            <a href="tel:02228124189" class="text-light">022 28124189</a>
+          </div>
+          <div class="mb-2 small">
+            <i class="fa-solid fa-envelope me-2" style="color: var(--besto-orange);"></i>
+            <a href="mailto:info@bestocontainer.com" class="text-light">info@bestocontainer.com</a>
+          </div>
+          <div class="small">
+            <i class="fa-brands fa-whatsapp me-2" style="color: var(--eco-green-light);"></i>
+            <a href="https://wa.me/919833853196?text=Hi%20Besto%20Container,%20I%20need%20a%20rate%20card." target="_blank" class="text-light">WhatsApp Direct Support</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <div>
+          © 2026 <strong>Besto Container Industries</strong>. All Rights Reserved. Regd Brand: <strong>BESTOSIA®</strong>.
+        </div>
+        <div class="d-flex gap-3 small">
+          <span>ISO 9001:2015</span>
+          <span>•</span>
+          <span>MPCB Consent Certified</span>
+          <span>•</span>
+          <span>GSTIN: 27AACFB8837E1ZG</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/919833853196?text=Hello%20Besto%20Container%20Industries,%20I%20would%20like%20to%20inquire%20about%20BESTOSIA%C2%AE%20drums." target="_blank" class="floating-whatsapp" title="WhatsApp Us">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <button type="button" class="scroll-to-top" id="scrollTopBtn" title="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // URL parameter auto-selection (?product=[cmp|otp|otec|gicm|hdpec|ibc_max|ibc_premium|new])
+    document.addEventListener('DOMContentLoaded', function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const productParam = urlParams.get('product');
+      if (productParam) {
+        const code = productParam.toLowerCase().replace(/-/g, '_').trim();
+        const select = document.getElementById('cProduct');
+        if (select) {
+          let matched = false;
+          // Direct value match
+          for (let i = 0; i < select.options.length; i++) {
+            const optVal = select.options[i].value.toLowerCase().replace(/-/g, '_');
+            if (optVal === code || optVal.includes(code) || code.includes(optVal)) {
+              select.selectedIndex = i;
+              matched = true;
+              break;
+            }
+          }
+          // Fallback text match
+          if (!matched) {
+            for (let i = 0; i < select.options.length; i++) {
+              const optText = select.options[i].text.toLowerCase();
+              if (optText.includes(code.replace(/_/g, ' '))) {
+                select.selectedIndex = i;
+                break;
+              }
+            }
+          }
+        }
+
+        const rfqSection = document.getElementById('rfq');
+        if (rfqSection) {
+          setTimeout(function() {
+            rfqSection.scrollIntoView({ behavior: 'smooth' });
+          }, 250);
+        }
+      }
+    });
+
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      const submitBtn = document.getElementById('cSubmitBtn');
+      const name = document.getElementById('cName').value.trim();
+      const company = document.getElementById('cCompany').value.trim();
+      const email = document.getElementById('cEmail').value.trim();
+      const phone = document.getElementById('cPhone').value.trim();
+      const destination = document.getElementById('cPincode').value.trim();
+      const select = document.getElementById('cProduct');
+      const productTitle = select.options[select.selectedIndex]?.text || select.value;
+      const qty = document.getElementById('cQty').value;
+      const grade = document.getElementById('cGrade').value;
+      const notes = document.getElementById('cNotes').value.trim();
+
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status"></span> Transmitting Order to Dispatch...';
+
+      setTimeout(function() {
+        const randomId = 'RFQ-2026-' + Math.floor(1000 + Math.random() * 9000);
+        document.getElementById('cReceiptId').innerText = randomId;
+        document.getElementById('cReceiptProduct').innerText = `${productTitle} (${qty}) [${grade}]`;
+        document.getElementById('cReceiptLocation').innerText = destination;
+
+        const summaryText = 
+          `*BESTOSIA® COMMERCIAL RFQ: ${randomId}*\n\n` +
+          `• *Name:* ${name}\n` +
+          `• *Company:* ${company}\n` +
+          `• *Email:* ${email}\n` +
+          `• *Phone:* +91 ${phone}\n` +
+          `• *Product:* ${productTitle}\n` +
+          `• *Quantity:* ${qty}\n` +
+          `• *Grade:* ${grade}\n` +
+          `• *Destination Pincode:* ${destination}\n` +
+          (notes ? `• *Requirements:* ${notes}\n\n` : `\n`) +
+          `Please provide the proforma commercial quotation and delivery schedule.`;
+
+        const whatsappMsg = encodeURIComponent(summaryText);
+        const whatsappUrl = `https://wa.me/919833853196?text=${whatsappMsg}`;
+        document.getElementById('cReceiptWhatsappLink').href = whatsappUrl;
+
+        // Mailto formatted URL
+        const emailSubject = encodeURIComponent(`BESTOSIA Commercial RFQ: ${randomId} - ${company}`);
+        const emailPlainBody = encodeURIComponent(
+          `BESTOSIA® COMMERCIAL RFQ: ${randomId}\n\n` +
+          `Contact Person: ${name}\n` +
+          `Company / Organization: ${company}\n` +
+          `Corporate Email: ${email}\n` +
+          `Phone / WhatsApp: +91 ${phone}\n` +
+          `Destination Pincode: ${destination}\n` +
+          `Product Required: ${productTitle}\n` +
+          `Estimated Quantity: ${qty}\n` +
+          `Packaging Grade: ${grade}\n` +
+          (notes ? `Technical Notes / Intended Liquid: ${notes}\n\n` : `\n`) +
+          `Please provide the formal commercial proforma invoice and dispatch lead time.\n` +
+          `Besto Container Industries (Brand: BESTOSIA®) Palghar Plant Works.`
+        );
+        const mailtoUrl = `mailto:info@bestocontainer.com?subject=${emailSubject}&body=${emailPlainBody}`;
+
+        document.getElementById('contactPageForm').classList.add('d-none');
+        document.getElementById('cSuccessBox').classList.remove('d-none');
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = '<i class="fa-brands fa-whatsapp me-2 fs-5"></i> Submit & Forward Order To WhatsApp (+91 9833853196)';
+
+        // Open WhatsApp in new tab and dispatch mailto
+        window.open(whatsappUrl, '_blank');
+        window.location.href = mailtoUrl;
+      }, 500);
+    }
+
+    function resetContactForm() {
+      document.getElementById('contactPageForm').reset();
+      document.getElementById('contactPageForm').classList.remove('d-none');
+      document.getElementById('cSuccessBox').classList.add('d-none');
+    }
+
+    window.addEventListener('scroll', function() {
+      const scrollBtn = document.getElementById('scrollTopBtn');
+      if (window.scrollY > 400) {
+        scrollBtn.style.display = 'flex';
+      } else {
+        scrollBtn.style.display = 'none';
+      }
+    });
+
+    document.getElementById('scrollTopBtn').addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>

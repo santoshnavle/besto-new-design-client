@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palghar Plant & ZLD Facility | Besto Container Industries - Zero Liquid Discharge ETP</title>
+  <meta name="description" content="Tour our state-of-the-art Palghar Zero Liquid Discharge (ZLD) manufacturing campus in Dewan & Sons Udyog Nagar. 100% closed-loop wash water recycling and automated drum testing.">
+  <meta property="og:title" content="Palghar Plant & ZLD Facility | Besto Container Industries">
+  <meta property="og:description" content="Discover our closed-loop chemical Effluent Treatment Plant (ETP), hydraulic de-denting machines, and 0.3 bar pneumatic leak testing lines.">
+  <meta property="og:type" content="website">
+
+  <!-- Bootstrap 5.3.3 CSS via jsDelivr CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  
+  <!-- FontAwesome 6.5.2 via cdnjs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  
+  <!-- Google Fonts: Inter & Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --besto-orange: #F58220;
+      --besto-orange-hover: #E06D0B;
+      --industrial-black: #121212;
+      --surface-charcoal: #1E2022;
+      --light-canvas: #F8F9FA;
+      --border-subtle: #2C3034;
+      --eco-green: #059669;
+      --eco-green-light: #10B981;
+      --text-main: #1e293b;
+      --text-muted-custom: #94a3b8;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--text-main);
+      background-color: var(--light-canvas);
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4, h5, .brand-font {
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: -0.02em;
+    }
+
+    .top-bar {
+      background-color: #0A0A0A;
+      font-size: 0.85rem;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .top-bar a {
+      color: #cbd5e1;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    .top-bar a:hover {
+      color: var(--besto-orange);
+    }
+
+    .navbar-custom {
+      background-color: var(--industrial-black);
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 25px rgba(0, 0, 0, 0.45);
+      border-bottom: 2px solid rgba(245, 130, 32, 0.3);
+    }
+    .navbar-custom .nav-link {
+      color: #e2e8f0;
+      font-weight: 500;
+      font-size: 0.95rem;
+      padding: 0.6rem 1rem;
+      transition: color 0.2s ease;
+    }
+    .navbar-custom .nav-link:hover,
+    .navbar-custom .nav-link.active {
+      color: var(--besto-orange);
+    }
+    .dropdown-menu-dark-custom {
+      background-color: var(--surface-charcoal);
+      border: 1px solid var(--border-subtle);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+    .dropdown-menu-dark-custom .dropdown-item {
+      color: #cbd5e1;
+      padding: 0.65rem 1.25rem;
+      font-size: 0.9rem;
+    }
+    .dropdown-menu-dark-custom .dropdown-item:hover {
+      background-color: rgba(245, 130, 32, 0.15);
+      color: var(--besto-orange);
+    }
+
+    .brand-logo-container {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+    .brand-title-main {
+      font-weight: 900;
+      font-size: 1.15rem;
+      line-height: 1.15;
+      color: #ffffff;
+      margin: 0;
+      letter-spacing: 0.02em;
+    }
+    .brand-sub-badge {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--besto-orange);
+      text-transform: uppercase;
+    }
+    .bg-besto-orange {
+      background-color: var(--besto-orange) !important;
+      color: #ffffff !important;
+    }
+
+    .btn-besto-orange {
+      background-color: var(--besto-orange);
+      color: #ffffff;
+      font-weight: 700;
+      border: none;
+      padding: 0.75rem 1.75rem;
+      border-radius: 6px;
+      transition: all 0.25s ease;
+      box-shadow: 0 4px 14px rgba(245, 130, 32, 0.35);
+    }
+    .btn-besto-orange:hover {
+      background-color: var(--besto-orange-hover);
+      color: #ffffff;
+      transform: translateY(-2px);
+    }
+
+    .page-header-banner {
+      background: linear-gradient(135deg, rgba(18, 18, 18, 0.95) 0%, rgba(30, 32, 34, 0.92) 100%),
+                  url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&q=80') center center / cover no-repeat;
+      padding: 70px 0;
+      color: #ffffff;
+      border-bottom: 4px solid var(--besto-orange);
+    }
+    .breadcrumb a {
+      color: var(--besto-orange);
+      text-decoration: none;
+    }
+
+    .section-py {
+      padding: 85px 0;
+    }
+
+    .process-step-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 2.2rem;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+      height: 100%;
+      border-top: 5px solid var(--besto-orange);
+      position: relative;
+    }
+    .process-step-num {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      font-size: 2.5rem;
+      font-weight: 900;
+      color: rgba(245, 130, 32, 0.15);
+      line-height: 1;
+    }
+
+    .etp-box-card {
+      background: var(--surface-charcoal);
+      color: #ffffff;
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 2.5rem;
+    }
+
+    .corporate-footer {
+      background-color: var(--industrial-black);
+      color: #cbd5e1;
+      padding: 85px 0 35px;
+      font-size: 0.92rem;
+      border-top: 4px solid var(--besto-orange);
+    }
+    .footer-title {
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 1.15rem;
+      margin-bottom: 1.4rem;
+      position: relative;
+      padding-bottom: 0.6rem;
+    }
+    .footer-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 36px;
+      height: 3px;
+      background-color: var(--besto-orange);
+    }
+    .footer-links {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+    .footer-links li {
+      margin-bottom: 0.75rem;
+    }
+    .footer-links a {
+      color: var(--text-muted-custom);
+      text-decoration: none;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .footer-links a:hover {
+      color: var(--besto-orange);
+      transform: translateX(4px);
+    }
+    .footer-bottom {
+      border-top: 1px solid var(--border-subtle);
+      margin-top: 50px;
+      padding-top: 25px;
+      font-size: 0.85rem;
+      color: #64748b;
+    }
+
+    .floating-whatsapp {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      width: 58px;
+      height: 58px;
+      background-color: var(--eco-green);
+      color: #ffffff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.9rem;
+      box-shadow: 0 8px 25px rgba(5, 150, 105, 0.4);
+      z-index: 1000;
+      text-decoration: none;
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .floating-whatsapp:hover {
+      transform: scale(1.1) translateY(-3px);
+      color: #ffffff;
+      background-color: var(--eco-green-light);
+    }
+
+    .scroll-to-top {
+      position: fixed;
+      bottom: 25px;
+      left: 25px;
+      width: 44px;
+      height: 44px;
+      background-color: var(--surface-charcoal);
+      color: #ffffff;
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      z-index: 999;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+    .scroll-to-top:hover {
+      background-color: var(--besto-orange);
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1. TOP UTILITY BAR -->
+  <div class="top-bar py-2 d-none d-md-block text-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7 col-md-8">
+          <div class="d-flex align-items-center flex-wrap gap-3">
+            <span>
+              <i class="fa-solid fa-phone me-1 text-warning"></i>
+              <a href="tel:+919833853196" class="fw-semibold">+91 9833853196</a>
+            </span>
+            <span class="text-secondary">|</span>
+            <span>
+              <i class="fa-solid fa-envelope me-1 text-warning"></i>
+              <a href="mailto:info@bestocontainer.com">info@bestocontainer.com</a>
+            </span>
+            <span class="text-secondary">|</span>
+            <span class="badge fw-bold px-2 py-1 text-white" style="background-color: var(--eco-green);">
+              <i class="fa-solid fa-check-double me-1"></i> MPCB AUTHORIZED & ISO CERTIFIED
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-4 text-end">
+          <div class="d-flex align-items-center justify-content-end gap-3">
+            <span class="small text-light">
+              <i class="fa-solid fa-seedling me-1" style="color: var(--eco-green-light);"></i> Palghar ZLD Operating Facility
+            </span>
+            <a href="https://wa.me/919833853196?text=Hello%20Besto%20Container%20Industries,%20I%20am%20interested%20in%20an%20industrial%20packaging%20quote." target="_blank" class="text-light" title="WhatsApp Direct">
+              <i class="fa-brands fa-whatsapp fs-6" style="color: var(--eco-green-light);"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="text-light" title="LinkedIn">
+              <i class="fa-brands fa-linkedin fs-6 text-secondary"></i>
+            </a>
+            <a href="contact.html" class="text-light" title="Palghar Plant Location">
+              <i class="fa-solid fa-location-dot fs-6 text-secondary"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. STICKY NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top py-3">
+    <div class="container">
+      <a class="brand-logo-container" href="index.html">
+        <img src="images/logo.png" alt="Besto Container" height="52" class="me-2" onerror="this.style.display='none'; document.getElementById('fallbackLogo').classList.remove('d-none');">
+        <span id="fallbackLogo" class="badge bg-besto-orange fs-5 px-3 py-2 fw-bold text-uppercase me-2 d-none">BESTO</span>
+        <div>
+          <h1 class="brand-title-main">BESTO CONTAINER</h1>
+        </div>
+      </a>
+
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="product-listing.html" id="productDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark-custom" aria-labelledby="productDropdown">
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-cmp"><i class="fa-solid fa-drum me-2 text-warning"></i>Bestosia CMP (200L Close Mouth)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-otec"><i class="fa-solid fa-box-open me-2 text-warning"></i>Bestosia OTEC (200L Open Top Epoxy)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-otp"><i class="fa-solid fa-box-open me-2 text-warning"></i>Bestosia OTP (200L Open Top Plain)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-gicm"><i class="fa-solid fa-shield me-2 text-light"></i>Bestosia GICM (200L Galvanized Iron)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-hdpec"><i class="fa-solid fa-flask-round-potion me-2 text-info"></i>Bestosia HDPEC (200L HDPE Plastic)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-ibc-max"><i class="fa-solid fa-cubes me-2 text-success"></i>Bestosia IBC MAX (1,000L IBC Tank)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-ibc-premium"><i class="fa-solid fa-star me-2 text-warning"></i>Bestosia IBC Premium (Pharma API Grade)</a></li>
+              <li><hr class="dropdown-divider border-secondary"></li>
+              <li><a class="dropdown-item" href="product-listing.html#virgin-supply"><i class="fa-solid fa-warehouse me-2 text-warning"></i>Brand-New Industrial Packaging</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="facility-zld.html">Facility & ZLD</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+            <a href="contact.html#rfq" class="btn btn-besto-orange fw-bold">
+              <i class="fa-solid fa-file-invoice me-1"></i> Request A Quote
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB HEADER BANNER -->
+  <header class="page-header-banner">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-2">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active text-white" aria-current="page">ZLD Facility</li>
+        </ol>
+      </nav>
+      <h1 class="display-5 fw-bold mb-2">Palghar Manufacturing & ZLD Facility</h1>
+      <p class="lead text-light opacity-75 mb-0" style="max-width: 800px;">
+        State-of-the-art closed-loop Effluent Treatment Plant (ETP) ensuring 100% water recycling and zero environmental discharge.
+      </p>
+    </div>
+  </header>
+
+  <!-- INFRASTRUCTURE & MACHINERY OVERVIEW -->
+  <section class="section-py bg-white">
+    <div class="container">
+      <div class="row align-items-center g-5 mb-5">
+        <div class="col-lg-6">
+          <span class="badge fw-bold px-3 py-1 mb-2 text-white" style="background-color: var(--industrial-black);">PALGHAR PLANT ARCHITECTURE</span>
+          <h2 class="display-6 fw-bold mb-3" style="color: var(--industrial-black);">Heavy-Duty Infrastructure & Automation</h2>
+          <p class="text-secondary leading-relaxed mb-3">
+            Located strategically in <strong>Dewan & Sons Udyog Nagar, Palghar East</strong>, our integrated manufacturing and reconditioning campus is engineered to process up to 1,500 steel drums and composite IBC units per shift with minimal manual intervention.
+          </p>
+          <p class="text-secondary leading-relaxed mb-4">
+            Combining hydraulic chimb reshaping, internal high-pressure caustic rotary jet washing, high-speed chain de-scaling, and computer-controlled lacquer baking tunnels, the facility restores industrial packaging to pristine structural integrity.
+          </p>
+
+          <div class="row g-3 mb-4">
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center gap-2">
+                <i class="fa-solid fa-gauge-high fs-4 text-warning"></i>
+                <div>
+                  <h6 class="fw-bold text-dark mb-0">1,500 Units / Shift</h6>
+                  <span class="small text-muted">Daily processing capacity</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center gap-2">
+                <i class="fa-solid fa-water fs-4" style="color: var(--eco-green-light);"></i>
+                <div>
+                  <h6 class="fw-bold text-dark mb-0">100% Recycled Water</h6>
+                  <span class="small text-muted">Zero fresh water waste</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="contact.html#rfq" class="btn btn-besto-orange fw-bold">
+            Schedule A Palghar Plant Visit <i class="fa-solid fa-arrow-right ms-2"></i>
+          </a>
+        </div>
+
+        <div class="col-lg-6">
+          <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80" alt="Industrial Manufacturing Line" class="img-fluid rounded-4 shadow">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4-STEP RECONDITIONING ENGINEERING PROCESS -->
+  <section class="section-py bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="badge fw-bold px-3 py-1 mb-2 text-white" style="background-color: var(--industrial-black);">STEP-BY-STEP WORKFLOW</span>
+        <h2 class="display-6 fw-bold" style="color: var(--industrial-black);">The BESTOSIA® 4-Stage Reconditioning Line</h2>
+        <p class="text-secondary mx-auto" style="max-width: 600px;">
+          Transforming hazardous-service industrial barrels into pristine, factory-calibrated containers with zero contamination.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Stage 1 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="process-step-card">
+            <span class="process-step-num">01</span>
+            <div class="mb-3 text-warning fs-3">
+              <i class="fa-solid fa-shower"></i>
+            </div>
+            <h5 class="fw-bold text-dark mb-2">Caustic Wash & De-scale</h5>
+            <p class="small text-secondary mb-0 leading-relaxed">
+              Drums undergo high-temperature caustic chemical scrubbing with dual rotary nozzles to completely dissolve oil residues, paints, and chemicals.
+            </p>
+          </div>
+        </div>
+
+        <!-- Stage 2 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="process-step-card">
+            <span class="process-step-num">02</span>
+            <div class="mb-3 text-warning fs-3">
+              <i class="fa-solid fa-hammer"></i>
+            </div>
+            <h5 class="fw-bold text-dark mb-2">Hydraulic De-Denting</h5>
+            <p class="small text-secondary mb-0 leading-relaxed">
+              Automated hydraulic rollers expand internal shells, restoring true cylindrical geometry and precision chime seam alignment.
+            </p>
+          </div>
+        </div>
+
+        <!-- Stage 3 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="process-step-card">
+            <span class="process-step-num">03</span>
+            <div class="mb-3 text-warning fs-3">
+              <i class="fa-solid fa-water-ladder"></i>
+            </div>
+            <h5 class="fw-bold text-dark mb-2">Pneumatic Submersion</h5>
+            <p class="small text-secondary mb-0 leading-relaxed">
+              Each barrel is pressurized to 0.3 bar and completely submerged under water in illuminated test tanks to confirm absolute leak-free integrity.
+            </p>
+          </div>
+        </div>
+
+        <!-- Stage 4 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="process-step-card">
+            <span class="process-step-num">04</span>
+            <div class="mb-3 text-warning fs-3">
+              <i class="fa-solid fa-paint-roller"></i>
+            </div>
+            <h5 class="fw-bold text-dark mb-2">Baking & Painting</h5>
+            <p class="small text-secondary mb-0 leading-relaxed">
+              Interior epoxy coating is baked at 220°C in tunnel ovens, followed by electrostatic corporate exterior enamel painting and bung seals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLOSED-LOOP ZLD ETP ARCHITECTURE -->
+  <section class="section-py bg-white">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <span class="badge fw-bold px-3 py-1 mb-2 text-white" style="background-color: var(--eco-green);">
+            <i class="fa-solid fa-droplet me-1"></i> ZERO LIQUID DISCHARGE
+          </span>
+          <h2 class="display-6 fw-bold mb-3" style="color: var(--industrial-black);">Closed-Loop Effluent Treatment Plant (ETP)</h2>
+          <p class="text-secondary leading-relaxed mb-3">
+            In full compliance with MPCB environmental consent guidelines, our Palghar works operates an advanced on-site physical, chemical, and biological effluent treatment facility.
+          </p>
+          <p class="text-secondary leading-relaxed mb-4">
+            Industrial wash water containing hydrocarbons, resins, and surfactants is channeled through multi-stage primary coagulation, secondary clarifiers, dual-media filtration, and multi-effect evaporation. Over 98% of treated water is recycled back into barrel cleaning cycles.
+          </p>
+
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <div class="border rounded p-3">
+                <div class="fw-bold fs-5 text-success">Zero Outflow</div>
+                <div class="small text-secondary">Zero industrial effluent released outside boundary walls.</div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="border rounded p-3">
+                <div class="fw-bold fs-5 text-warning">Sludge Disposal</div>
+                <div class="small text-secondary">Inert hazardous solid cake routed to authorized CHWTSDF facilities.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="etp-box-card">
+            <h4 class="fw-bold text-white mb-3"><i class="fa-solid fa-shield-virus text-warning me-2"></i>Palghar Plant Environmental Scorecard</h4>
+            <ul class="list-unstyled mb-4">
+              <li class="mb-3 d-flex align-items-center gap-2">
+                <i class="fa-solid fa-circle-check text-success"></i>
+                <span><strong>MPCB Consent to Operate:</strong> Fully validated hazardous waste recycling unit.</span>
+              </li>
+              <li class="mb-3 d-flex align-items-center gap-2">
+                <i class="fa-solid fa-circle-check text-success"></i>
+                <span><strong>Water Recovery Ratio:</strong> 98.4% continuous closed-loop recycling.</span>
+              </li>
+              <li class="mb-3 d-flex align-items-center gap-2">
+                <i class="fa-solid fa-circle-check text-success"></i>
+                <span><strong>Carbon Offset:</strong> 14.8 kg CO2 saved per reconditioned steel barrel.</span>
+              </li>
+              <li class="d-flex align-items-center gap-2">
+                <i class="fa-solid fa-circle-check text-success"></i>
+                <span><strong>EPR Compliance:</strong> Complete manifest documentation (Form 10 & Manifest tracking).</span>
+              </li>
+            </ul>
+
+            <a href="contact.html#rfq" class="btn btn-besto-orange w-100 fw-bold py-3">
+              <i class="fa-solid fa-file-invoice me-2"></i> Request Commercial Rate Card & Plant Inspection
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4-COLUMN CORPORATE FOOTER -->
+  <footer class="corporate-footer" id="contact">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <img src="images/logo.png" alt="Besto Container" height="42" class="me-1" onerror="this.style.display='none'; document.getElementById('footerFallbackLogo').classList.remove('d-none');">
+            <span id="footerFallbackLogo" class="badge bg-besto-orange fs-6 px-3 py-2 fw-bold text-uppercase text-white d-none">BESTO</span>
+            <h5 class="fw-bold text-white mb-0">BESTO CONTAINER</h5>
+          </div>
+          <p class="small text-muted-custom mb-3">
+            Besto Container Industries (Brand: BESTOSIA®) was established in 1995 by <strong>Sayeed Ahmed</strong>. A trusted partner in industrial containment, manufacturing M.S. Barrels, G.I. Drums, HDPE Barrels, and 1000L IBC Tanks with Palghar Zero Liquid Discharge sustainability.
+          </p>
+          <div class="small text-light mb-2">
+            <strong>GSTIN:</strong> <span style="color: var(--besto-orange);">27AACFB8837E1ZG</span>
+          </div>
+          <div class="small text-light">
+            <strong>MPCB Consent:</strong> Validated Operating ZLD Site
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6">
+          <h5 class="footer-title">Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> About Us</a></li>
+            <li><a href="product-listing.html"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Product Catalog</a></li>
+            <li><a href="facility-zld.html"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Palghar ZLD Plant</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Contact Us</a></li>
+            <li><a href="contact.html#rfq"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Request A Quote</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-title">Container Range</h5>
+          <ul class="footer-links">
+            <li><a href="product-listing.html#bestosia-cmp"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Bestosia CMP (200L Close Mouth)</a></li>
+            <li><a href="product-listing.html#bestosia-otec"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Bestosia OTEC (200L Epoxy Open Top)</a></li>
+            <li><a href="product-listing.html#bestosia-otp"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Bestosia OTP (200L Plain Open Top)</a></li>
+            <li><a href="product-listing.html#bestosia-gicm"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Bestosia GICM (Galvanized 200L)</a></li>
+            <li><a href="product-listing.html#bestosia-hdpec"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Bestosia HDPEC (HM-HDPE 200L)</a></li>
+            <li><a href="product-listing.html#bestosia-ibc-max"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Bestosia IBC MAX (1000L Composite)</a></li>
+            <li><a href="product-listing.html#virgin-supply"><i class="fa-solid fa-angle-right" style="color: var(--besto-orange);"></i> Brand-New Virgin Inventory</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-title">Palghar Plant</h5>
+          <address class="small text-muted-custom mb-3">
+            <i class="fa-solid fa-map-location-dot me-2" style="color: var(--besto-orange);"></i>
+            Plot No. 9, Sector C, Dewan & Sons Udyog Nagar, Palghar East - 401404, Maharashtra, India.
+          </address>
+          <div class="mb-2 small">
+            <i class="fa-solid fa-phone me-2" style="color: var(--besto-orange);"></i>
+            <a href="tel:+919833853196" class="text-light fw-bold">+91 9833853196</a>
+          </div>
+          <div class="mb-2 small">
+            <i class="fa-solid fa-phone me-2" style="color: var(--besto-orange);"></i>
+            <a href="tel:02228124189" class="text-light">022 28124189</a>
+          </div>
+          <div class="mb-2 small">
+            <i class="fa-solid fa-envelope me-2" style="color: var(--besto-orange);"></i>
+            <a href="mailto:info@bestocontainer.com" class="text-light">info@bestocontainer.com</a>
+          </div>
+          <div class="small">
+            <i class="fa-brands fa-whatsapp me-2" style="color: var(--eco-green-light);"></i>
+            <a href="https://wa.me/919833853196?text=Hi%20Besto%20Container,%20I%20need%20a%20rate%20card." target="_blank" class="text-light">WhatsApp Direct Support</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <div>
+          © 2026 <strong>Besto Container Industries</strong>. All Rights Reserved. Regd Brand: <strong>BESTOSIA®</strong>.
+        </div>
+        <div class="d-flex gap-3 small">
+          <span>ISO 9001:2015</span>
+          <span>•</span>
+          <span>MPCB Consent Certified</span>
+          <span>•</span>
+          <span>GSTIN: 27AACFB8837E1ZG</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/919833853196?text=Hello%20Besto%20Container%20Industries,%20I%20would%20like%20to%20inquire%20about%20BESTOSIA%C2%AE%20drums." target="_blank" class="floating-whatsapp" title="WhatsApp Us">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <button type="button" class="scroll-to-top" id="scrollTopBtn" title="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    window.addEventListener('scroll', function() {
+      const scrollBtn = document.getElementById('scrollTopBtn');
+      if (window.scrollY > 400) {
+        scrollBtn.style.display = 'flex';
+      } else {
+        scrollBtn.style.display = 'none';
+      }
+    });
+
+    document.getElementById('scrollTopBtn').addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
