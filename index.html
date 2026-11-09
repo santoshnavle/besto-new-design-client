@@ -164,20 +164,16 @@
       position: relative;
     }
     .carousel-slide-1 {
-      background-image: linear-gradient(135deg, rgba(18, 18, 18, 0.92) 0%, rgba(30, 32, 34, 0.86) 100%),
-                        url('https://images.unsplash.com/photo-1590496793929-36417d3117de?auto=format&fit=crop&w=1920&q=80');
+      background-image: linear-gradient(135deg, rgba(18, 18, 18, 0.92) 0%, rgba(30, 32, 34, 0.1) 100%),
+                        url('images/slider-1.jpg');
     }
     .carousel-slide-2 {
-      background-image: linear-gradient(135deg, rgba(18, 18, 18, 0.92) 0%, rgba(30, 32, 34, 0.86) 100%),
-                        url('https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=1920&q=80');
+      background-image: linear-gradient(135deg, rgba(18, 18, 18, 0.92) 0%, rgba(30, 32, 34, 0.1) 100%),
+                        url('images/slider-2.jpg');
     }
     .carousel-slide-3 {
-      background-image: linear-gradient(135deg, rgba(18, 18, 18, 0.92) 0%, rgba(30, 32, 34, 0.86) 100%),
-                        url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1920&q=80');
-    }
-    .carousel-slide-4 {
-      background-image: linear-gradient(135deg, rgba(18, 18, 18, 0.92) 0%, rgba(30, 32, 34, 0.86) 100%),
-                        url('https://images.unsplash.com/photo-1586528116493-a029325540fa?auto=format&fit=crop&w=1920&q=80');
+      background-image: linear-gradient(135deg, rgba(18, 18, 18, 0.92) 0%, rgba(30, 32, 34, 0.1) 100%),
+                        url('images/slider-3.jpg');
     }
     .hero-slide-content {
       padding: 100px 0 130px;
@@ -201,7 +197,7 @@
       font-weight: 900;
       line-height: 1.15;
       color: #ffffff;
-      margin-bottom: 1.25rem;
+      margin-bottom: 2.25rem;
     }
     .hero-subinfo-card {
       background: rgba(30, 32, 34, 0.7);
@@ -231,6 +227,11 @@
       opacity: 1;
       background-color: var(--besto-orange);
       transform: scale(1.2);
+    }
+
+    .carousel-fade .carousel-item{
+      display: flex;
+      align-items: center;
     }
 
     /* 4. 3-Box Overlapping Grid */
@@ -601,15 +602,15 @@
               Products
             </a>
             <ul class="dropdown-menu dropdown-menu-dark-custom" aria-labelledby="productDropdown">
-              <li><a class="dropdown-item" href="product-listing.html#bestosia-cmp"><i class="fa-solid fa-drum me-2 text-warning"></i>Bestosia CMP (200L Close Mouth)</a></li>
-              <li><a class="dropdown-item" href="product-listing.html#bestosia-otec"><i class="fa-solid fa-box-open me-2 text-warning"></i>Bestosia OTEC (200L Open Top Epoxy)</a></li>
-              <li><a class="dropdown-item" href="product-listing.html#bestosia-otp"><i class="fa-solid fa-box-open me-2 text-warning"></i>Bestosia OTP (200L Open Top Plain)</a></li>
-              <li><a class="dropdown-item" href="product-listing.html#bestosia-gicm"><i class="fa-solid fa-shield me-2 text-light"></i>Bestosia GICM (200L Galvanized Iron)</a></li>
-              <li><a class="dropdown-item" href="product-listing.html#bestosia-hdpec"><i class="fa-solid fa-flask-round-potion me-2 text-info"></i>Bestosia HDPEC (200L HDPE Plastic)</a></li>
-              <li><a class="dropdown-item" href="product-listing.html#bestosia-ibc-max"><i class="fa-solid fa-cubes me-2 text-success"></i>Bestosia IBC MAX (1,000L IBC Tank)</a></li>
-              <li><a class="dropdown-item" href="product-listing.html#bestosia-ibc-premium"><i class="fa-solid fa-star me-2 text-warning"></i>Bestosia IBC Premium (Pharma API Grade)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-cmp">Bestosia CMP (200L Close Mouth)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-otec">Bestosia OTEC (200L Open Top Epoxy)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-otp">Bestosia OTP (200L Open Top Plain)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-gicm">Bestosia GICM (200L Galvanized Iron)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-hdpec">Bestosia HDPEC (200L HDPE Plastic)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-ibc-max">Bestosia IBC MAX (1,000L IBC Tank)</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#bestosia-ibc-premium">Bestosia IBC Premium (Pharma API Grade)</a></li>
               <li><hr class="dropdown-divider border-secondary"></li>
-              <li><a class="dropdown-item" href="product-listing.html#virgin-supply"><i class="fa-solid fa-warehouse me-2 text-warning"></i>Brand-New Industrial Packaging</a></li>
+              <li><a class="dropdown-item" href="product-listing.html#virgin-supply">Brand-New Industrial Packaging</a></li>
             </ul>
           </li>
 
@@ -638,7 +639,6 @@
         <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1: Bestosia CMP"></button>
         <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2: Bestosia OTEC"></button>
         <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3: Bestosia GICM"></button>
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 4: Bestosia IBC MAX"></button>
       </div>
 
       <!-- Slides Container -->
@@ -653,15 +653,15 @@
                   <i class="fa-solid fa-shield-halved me-1"></i> CIRCULAR INDUSTRIAL PACKAGING
                 </span>
                 <h2 class="hero-title">
-                  M.S. Barrels 200L Capacity Close Mouth (Bestosia CMP)
+                  Your Trusted Partner in Industrial Packaging Solutions
                 </h2>
                 
-                <div class="hero-subinfo-card">
+                <!-- <div class="hero-subinfo-card">
                   <p class="hero-subinfo-text">
                     <i class="fa-solid fa-circle-check text-warning me-2"></i>
                     <strong>200L Close Mouth M.S. Barrel with 2" & 3/4" zinc bungs, 100% pneumatic leak tested for solvents, fuels & industrial chemicals.</strong>
                   </p>
-                </div>
+                </div> -->
 
                 <div class="d-flex flex-wrap gap-3">
                   <a href="product-listing.html#bestosia-cmp" class="btn btn-besto-orange btn-lg">
@@ -685,15 +685,15 @@
                   <i class="fa-solid fa-paint-roller me-1"></i> CHEMICALLY RESISTANT COATINGS
                 </span>
                 <h2 class="hero-title">
-                  M.S. Barrels 200L Open Top Epoxy Coated (Bestosia OTEC)
+                  New & Reconditioned Containers. Uncompromising Quality.
                 </h2>
 
-                <div class="hero-subinfo-card">
+                <!-- <div class="hero-subinfo-card">
                   <p class="hero-subinfo-text">
                     <i class="fa-solid fa-circle-check text-warning me-2"></i>
                     <strong>200L Open Top Epoxy Coated Barrel with clamp ring lid, EPDM gasket & oven-cured lacquer lining for synthetic resins & cable jelly.</strong>
                   </p>
-                </div>
+                </div> -->
 
                 <div class="d-flex flex-wrap gap-3">
                   <a href="product-listing.html#bestosia-otec" class="btn btn-besto-orange btn-lg">
@@ -717,15 +717,15 @@
                   <i class="fa-solid fa-shield me-1"></i> ZERO-CORROSION GALVANIZED
                 </span>
                 <h2 class="hero-title">
-                  G.I. Barrels 200L Galvanized Iron (Bestosia GICM)
+                  Quality Containers. Sustainable Solutions.
                 </h2>
 
-                <div class="hero-subinfo-card">
+                <!-- <div class="hero-subinfo-card">
                   <p class="hero-subinfo-text">
                     <i class="fa-solid fa-circle-check text-warning me-2"></i>
                     <strong>200L Galvanized Iron Close Mouth Barrel with anti-rust zinc barrier protection for peppermint, essential oils & export fragrances.</strong>
                   </p>
-                </div>
+                </div> -->
 
                 <div class="d-flex flex-wrap gap-3">
                   <a href="product-listing.html#bestosia-gicm" class="btn btn-besto-orange btn-lg">
@@ -739,40 +739,9 @@
             </div>
           </div>
         </div>
+        
 
-        <!-- Slide 4: Bestosia IBC MAX -->
-        <div class="carousel-item carousel-slide-4">
-          <div class="container hero-slide-content">
-            <div class="row align-items-center">
-              <div class="col-lg-9 col-xl-8">
-                <span class="badge hero-badge-pill mb-3">
-                  <i class="fa-solid fa-cubes me-1"></i> BULK LOGISTICS TOTES
-                </span>
-                <h2 class="hero-title">
-                  Composite IBC Tanks 1,000L Capacity (Bestosia IBC MAX)
-                </h2>
-
-                <div class="hero-subinfo-card">
-                  <p class="hero-subinfo-text">
-                    <i class="fa-solid fa-circle-check text-warning me-2"></i>
-                    <strong>1,000L IBC Tank with tubular galvanized cage & DN50 valve; container-optimized to fit 20 units inside a standard 20ft ocean box.</strong>
-                  </p>
-                </div>
-
-                <div class="d-flex flex-wrap gap-3">
-                  <a href="product-listing.html#bestosia-ibc-max" class="btn btn-besto-orange btn-lg">
-                    <i class="fa-solid fa-boxes-stacked me-2"></i> Explore Products
-                  </a>
-                  <a href="contact.html?product=ibc_max#rfq" class="btn btn-hero-outline btn-lg">
-                    <i class="fa-solid fa-file-invoice me-2"></i> Request A Quote
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
+      </div> 
 
       <!-- Controls -->
       <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev" aria-label="Previous Slide">
@@ -868,7 +837,7 @@
             <a href="about.html" class="btn btn-besto-orange fw-bold">
               Read Our Company Story <i class="fa-solid fa-arrow-right ms-2"></i>
             </a>
-            <a href="facility-zld.html" class="btn btn-outline-dark fw-bold">
+            <a href="facility-zld.html" class="btn btn-outline-dark fw-bold d-flex align-items-center">
               Explore Palghar Plant
             </a>
           </div>
@@ -876,7 +845,7 @@
 
         <div class="col-lg-6">
           <div class="about-image-stack">
-            <img src="https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80" alt="Besto Palghar Plant" class="about-main-img">
+            <img src="images/Besto Palghar Plant.jpg" alt="Besto Palghar Plant" class="about-main-img">
             <div class="about-badge-year text-center">
               <div class="display-6 fw-bold mb-0 text-white">28+</div>
               <div class="small fw-semibold text-warning">Years Experience</div>
@@ -1098,7 +1067,7 @@
   <!-- 8. PALGHAR ZLD FEATURE STRIP -->
   <section class="zld-section">
     <div class="container">
-      <div class="row align-items-center g-5">
+      <div class="row align-items-center">
         <div class="col-lg-7">
           <span class="badge fw-bold px-3 py-1 mb-2 text-white" style="background-color: var(--eco-green);">
             <i class="fa-solid fa-leaf me-1"></i> CIRCULAR ECONOMY & ESG COMPLIANCE
@@ -1115,7 +1084,7 @@
             <a href="facility-zld.html" class="btn btn-besto-orange fw-bold">
               <i class="fa-solid fa-industry me-2"></i> Explore ZLD ETP Systems
             </a>
-            <a href="https://wa.me/919833853196?text=Hello%20Besto%20Container,%20I%20would%20like%20to%20discuss%20MPCB%20certified%20reconditioned%20drums." target="_blank" class="btn btn-outline-light fw-bold">
+            <a href="https://wa.me/919833853196?text=Hello%20Besto%20Container,%20I%20would%20like%20to%20discuss%20MPCB%20certified%20reconditioned%20drums." target="_blank" class="btn btn-outline-light fw-bold d-flex align-items-center">
               <i class="fa-brands fa-whatsapp me-2" style="color: var(--eco-green-light);"></i> Connect with Plant Desk
             </a>
           </div>
