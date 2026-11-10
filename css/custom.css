@@ -1,0 +1,514 @@
+/* ==========================================================================
+   BESTO CONTAINER INDUSTRIES (Brand: BESTOSIA®)
+   css/custom.css - Modular Page-Specific Stylesheet
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Home Page: Hero Carousel & Fade Animation Layers
+   -------------------------------------------------------------------------- */
+.hero-carousel-section {
+  position: relative;
+  background-color: var(--industrial-brown);
+}
+
+.carousel-item {
+  min-height: 640px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.carousel-slide-1 {
+  background-image: linear-gradient(135deg, rgba(18, 18, 18, 0.92) 0%, rgba(30, 32, 34, 0.1) 100%),
+                    url('../images/slider-1.jpg');
+}
+
+.carousel-slide-2 {
+  background-image: linear-gradient(135deg, rgba(18, 18, 18, 0.92) 0%, rgba(30, 32, 34, 0.1) 100%),
+                    url('../images/slider-2.jpg');
+}
+
+.carousel-slide-3 {
+  background-image: linear-gradient(135deg, rgba(18, 18, 18, 0.92) 0%, rgba(30, 32, 34, 0.1) 100%),
+                    url('../images/slider-3.jpg');
+}
+
+.hero-slide-content {
+  padding: 100px 0 130px;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-badge-pill {
+  background-color: rgba(245, 130, 32, 0.18);
+  color: var(--besto-orange);
+  border: 1px solid var(--besto-orange);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  padding: 0.55rem 1.25rem;
+  border-radius: 50rem;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.hero-title {
+  font-size: 2.85rem;
+  font-weight: 900;
+  line-height: 1.15;
+  color: #ffffff;
+  margin-bottom: 2.25rem;
+}
+
+.hero-subinfo-card {
+  background: rgba(30, 32, 34, 0.7);
+  backdrop-filter: blur(8px);
+  border-left: 4px solid var(--besto-orange);
+  border-radius: 6px;
+  padding: 1.15rem 1.4rem;
+  margin-bottom: 2rem;
+  max-width: 680px;
+}
+
+.hero-subinfo-text {
+  color: #e2e8f0;
+  font-size: 1rem;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  opacity: 0.45;
+  margin: 0 6px;
+  transition: all 0.3s ease;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  background-color: var(--besto-orange);
+  transform: scale(1.2);
+}
+
+.carousel-fade .carousel-item {
+  display: flex;
+  align-items: center;
+}
+
+/* --------------------------------------------------------------------------
+   2. Home Page: 3-Box Overlapping Feature Grid
+   -------------------------------------------------------------------------- */
+.overlapping-features-row {
+  margin-top: -55px;
+  position: relative;
+  z-index: 10;
+}
+
+.feature-card-box {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 2.2rem;
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.09);
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e2e8f0;
+}
+
+.feature-card-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.14);
+}
+
+.feature-border-orange { border-top: 5px solid var(--besto-orange); }
+.feature-border-dark { border-top: 5px solid var(--industrial-brown); }
+.feature-border-green { border-top: 5px solid var(--eco-green); }
+
+.feature-icon-wrapper {
+  width: 52px;
+  height: 52px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Home Overview & Experience Badge */
+.about-image-stack {
+  position: relative;
+}
+
+.about-main-img {
+  border-radius: 12px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  object-fit: cover;
+  max-height: 480px;
+}
+
+.about-badge-year {
+  position: absolute;
+  bottom: -25px;
+  right: 25px;
+  background: var(--surface-charcoal);
+  color: #ffffff;
+  border: 2px solid var(--besto-orange);
+  border-radius: 12px;
+  padding: 1.25rem 1.6rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Home Metric Counters */
+.metric-counter-strip {
+  background-color: var(--industrial-brown);
+  color: #ffffff;
+  padding: 60px 0;
+  border-top: 2px solid var(--border-subtle);
+  border-bottom: 2px solid var(--border-subtle);
+}
+
+.metric-number {
+  font-size: 2.75rem;
+  font-weight: 900;
+  color: var(--besto-orange);
+  line-height: 1;
+  margin-bottom: 0.4rem;
+}
+
+/* Home Product Cards & Hover Animations */
+.product-card {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.12);
+  border-color: var(--besto-orange);
+}
+
+.product-img-wrapper {
+  height: 220px;
+  overflow: hidden;
+  position: relative;
+}
+
+.product-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.product-card:hover .product-img-wrapper img {
+  transform: scale(1.06);
+}
+
+.product-capacity-pill {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background: rgba(18, 18, 18, 0.85);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  border: 1px solid rgba(245, 130, 32, 0.4);
+}
+
+.product-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.product-code {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--besto-orange);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+
+.product-spec-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.86rem;
+  color: #64748b;
+  margin-bottom: 1.25rem;
+}
+
+.product-spec-list li {
+  margin-bottom: 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.product-spec-list i {
+  color: var(--besto-orange);
+  font-size: 0.75rem;
+}
+
+/* Home Palghar ZLD Feature Strip */
+.zld-section {
+  background: linear-gradient(135deg, var(--industrial-brown) 0%, var(--surface-charcoal) 100%);
+  color: #ffffff;
+  padding: 85px 0;
+  border-top: 3px solid var(--besto-orange);
+}
+
+.zld-highlight-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 2.2rem;
+}
+
+/* --------------------------------------------------------------------------
+   3. About Us Page Styles
+   -------------------------------------------------------------------------- */
+.timeline-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 2.2rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  height: 100%;
+  border-top: 5px solid var(--besto-orange);
+}
+
+.leadership-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 2.2rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+.compliance-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.8rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  border-left: 5px solid var(--besto-orange);
+}
+
+/* --------------------------------------------------------------------------
+   4. Product Catalog Page Styles
+   -------------------------------------------------------------------------- */
+.supply-model-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 2.2rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  height: 100%;
+  border-top: 5px solid var(--besto-orange);
+}
+
+.tech-product-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.tech-product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.12);
+  border-color: var(--besto-orange);
+}
+
+.tech-img-box {
+  height: 240px;
+  overflow: hidden;
+  position: relative;
+}
+
+.tech-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.tech-product-card:hover .tech-img-box img {
+  transform: scale(1.06);
+}
+
+.product-capacity-tag {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: rgba(18, 18, 18, 0.85);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.35rem 0.8rem;
+  border-radius: 4px;
+  border: 1px solid rgba(245, 130, 32, 0.4);
+}
+
+.tech-spec-table {
+  font-size: 0.85rem;
+  margin-bottom: 1.25rem;
+}
+
+.tech-spec-table th {
+  background-color: var(--light-canvas);
+  color: var(--industrial-brown);
+  width: 40%;
+  font-weight: 600;
+}
+
+.tech-spec-table td {
+  color: #334155;
+}
+
+.virgin-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2.2rem;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  border-left: 5px solid var(--besto-orange);
+}
+
+/* --------------------------------------------------------------------------
+   5. Facility & ZLD Page Styles
+   -------------------------------------------------------------------------- */
+.process-step-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 2.2rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  height: 100%;
+  border-top: 5px solid var(--besto-orange);
+  position: relative;
+}
+
+.process-step-num {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: rgba(245, 130, 32, 0.15);
+  line-height: 1;
+}
+
+.etp-box-card {
+  background: var(--surface-charcoal);
+  color: #ffffff;
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 2.5rem;
+}
+
+/* --------------------------------------------------------------------------
+   6. Contact Page Styles & Form Alerts
+   -------------------------------------------------------------------------- */
+.contact-form-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.06);
+}
+
+.plant-info-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 2.2rem;
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.06);
+  margin-bottom: 1.75rem;
+}
+
+.plant-info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 1.25rem;
+}
+
+.plant-info-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+  background-color: rgba(245, 130, 32, 0.12);
+  color: var(--besto-orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  flex-shrink: 0;
+}
+
+.map-container-box {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.06);
+  height: 280px;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: var(--besto-orange);
+  box-shadow: 0 0 0 0.25rem rgba(245, 130, 32, 0.25);
+}
+
+/* --------------------------------------------------------------------------
+   7. Responsive Breakpoint Overrides
+   -------------------------------------------------------------------------- */
+@media (max-width: 991.98px) {
+  .hero-title {
+    font-size: 2.1rem;
+  }
+  .carousel-item {
+    min-height: 580px;
+  }
+  .overlapping-features-row {
+    margin-top: -30px;
+  }
+  .about-badge-year {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-title {
+    font-size: 1.65rem;
+  }
+  .hero-slide-content {
+    padding: 70px 0 110px;
+  }
+  .carousel-item {
+    min-height: 520px;
+  }
+}
