@@ -159,9 +159,12 @@ h1, h2, h3, h4, h5, .brand-font {
 }
 
 /* Page Header Breadcrumb Banner (Inner Pages) */
+.about-header-banner{
+  background: url('../images/about-banner.png') no-repeat left center; 
+}
 .page-header-banner {
-  background: linear-gradient(135deg, rgba(18, 18, 18, 0.95) 0%, rgba(30, 32, 34, 0.92) 100%),
-              url('https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=1920&q=80') center center / cover no-repeat;
+  background: linear-gradient(135deg, rgba(18, 18, 18, 0.6) 0%, rgba(30, 32, 34, 0.4) 100%),
+              url('../images/about-banner.png') left center / cover no-repeat;
   padding: 70px 0;
   color: #ffffff;
   border-bottom: 4px solid var(--besto-orange);
