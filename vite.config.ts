@@ -8,17 +8,18 @@ export default defineConfig(() => {
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, '.'),
+        '@': path.resolve(import.meta.dirname, '.'),
       },
     },
     build: {
       rollupOptions: {
         input: {
-          main: path.resolve(__dirname, 'index.html'),
-          about: path.resolve(__dirname, 'about.html'),
-          products: path.resolve(__dirname, 'product-listing.html'),
-          facilityZld: path.resolve(__dirname, 'facility-zld.html'),
-          contact: path.resolve(__dirname, 'contact.html'),
+          main: path.resolve(import.meta.dirname, 'index.html'),
+          about: path.resolve(import.meta.dirname, 'about.html'),
+          products: path.resolve(import.meta.dirname, 'product-listing.html'),
+          facilityZld: path.resolve(import.meta.dirname, 'facility-zld.html'),
+          careers: path.resolve(import.meta.dirname, 'careers.html'),
+          contact: path.resolve(import.meta.dirname, 'contact.html'),
         },
       },
     },
