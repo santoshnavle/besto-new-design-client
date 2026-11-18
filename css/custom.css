@@ -495,10 +495,81 @@
   border-color: var(--besto-orange);
 }
 
+/* --------------------------------------------------------------------------
+   7. Product Detail Pages Styles
+   -------------------------------------------------------------------------- */
+.product-hero-frame {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.07);
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
 
+.product-hero-frame img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.product-detail-fallback {
+  width: 100%;
+  min-height: 320px;
+  background: linear-gradient(135deg, var(--light-canvas) 0%, #eef2f6 100%);
+  border: 2px dashed #cbd5e1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  color: var(--industrial-brown);
+}
+
+.product-detail-fallback i {
+  font-size: 4rem;
+  color: var(--besto-orange);
+  margin-bottom: 1rem;
+}
+
+.product-detail-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  border-top: 4px solid var(--besto-orange);
+}
+
+.product-spec-detail-table th {
+  background-color: var(--light-canvas);
+  color: var(--industrial-brown);
+  width: 38%;
+  font-weight: 700;
+}
+
+.product-spec-detail-table td {
+  color: #334155;
+}
+
+.product-cta-strip {
+  background: linear-gradient(135deg, var(--industrial-black) 0%, var(--surface-charcoal) 100%);
+  color: #ffffff;
+  padding: 64px 0;
+  border-top: 4px solid var(--besto-orange);
+}
 
 /* --------------------------------------------------------------------------
-   7. Responsive Breakpoint Overrides
+   8. Responsive Breakpoint Overrides
    -------------------------------------------------------------------------- */
 @media (max-width: 991.98px) {
   .hero-title {

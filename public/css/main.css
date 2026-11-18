@@ -117,6 +117,11 @@ h1, h2, h3, h4, h5, .brand-font {
   color: #ffffff !important;
 }
 
+.bg-besto-black {
+  background-color: var(--industrial-black) !important;
+  color: #ffffff !important;
+}
+
 .text-besto-orange {
   color: var(--besto-orange) !important;
 }
@@ -124,7 +129,8 @@ h1, h2, h3, h4, h5, .brand-font {
 /* --------------------------------------------------------------------------
    3. Shared Buttons & Components
    -------------------------------------------------------------------------- */
-.btn-besto-orange {
+.btn-besto-orange,
+.btn-primary {
   background-color: var(--besto-orange);
   color: #ffffff;
   font-weight: 700;
@@ -135,7 +141,10 @@ h1, h2, h3, h4, h5, .brand-font {
   box-shadow: 0 4px 14px rgba(245, 130, 32, 0.35);
 }
 
-.btn-besto-orange:hover {
+.btn-besto-orange:hover,
+.btn-besto-orange:focus,
+.btn-primary:hover,
+.btn-primary:focus {
   background-color: var(--besto-orange-hover);
   color: #ffffff;
   transform: translateY(-2px);
