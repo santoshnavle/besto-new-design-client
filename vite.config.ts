@@ -17,6 +17,8 @@ export default defineConfig(() => {
           main: path.resolve(import.meta.dirname, 'index.html'),
           about: path.resolve(import.meta.dirname, 'about.html'),
           products: path.resolve(import.meta.dirname, 'product-listing.html'),
+          refurbishedProducts: path.resolve(import.meta.dirname, 'refurbished-products.html'),
+          brandNewProducts: path.resolve(import.meta.dirname, 'brand-new-products.html'),
           facilityZld: path.resolve(import.meta.dirname, 'facility-zld.html'),
           careers: path.resolve(import.meta.dirname, 'careers.html'),
           contact: path.resolve(import.meta.dirname, 'contact.html'),
