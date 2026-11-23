@@ -577,7 +577,7 @@
 #productImageCarousel .carousel-item img {
   width: 100%;
   height: 360px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 6px;
 }
 
