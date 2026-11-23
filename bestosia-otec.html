@@ -161,15 +161,52 @@
   <section class="section-py bg-white">
     <div class="container">
       <div class="row g-5 align-items-center">
-        <!-- Left Column: Product Image Frame -->
+        <!-- Left Column: Product Image Carousel -->
         <div class="col-lg-5">
-          <div class="product-hero-frame">
-            <img src="images/bestosia-otec.jpg" alt="Bestosia OTEC — Open Top Epoxy Coated Barrel" onerror="this.classList.add('d-none'); this.nextElementSibling.classList.remove('d-none');">
-            <div class="product-detail-fallback d-none">
-              <i class="fa-solid fa-drum"></i>
-              <span class="badge bg-besto-orange mb-2">PRODUCT CODE: OTEC</span>
-              <h5 class="fw-bold mb-1">Bestosia OTEC — Open Top Epoxy Coated Barrel</h5>
-              <p class="small text-secondary mb-0">200–210 Litres • MS / CRCA Steel • Epoxy / Phenolic Epoxy Lacquer</p>
+          <div class="border rounded shadow-sm bg-white p-2">
+            <div id="productImageCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#productImageCarousel" data-bs-slide-to="0" class="active bg-besto-orange" aria-current="true" aria-label="Angle 1"></button>
+                <button type="button" data-bs-target="#productImageCarousel" data-bs-slide-to="1" class="bg-besto-orange" aria-label="Angle 2"></button>
+                <button type="button" data-bs-target="#productImageCarousel" data-bs-slide-to="2" class="bg-besto-orange" aria-label="Angle 3"></button>
+              </div>
+              <div class="carousel-inner rounded">
+                <div class="carousel-item active">
+                  <img src="images/bestosia-otec-1.jpg" class="d-block w-100" alt="Bestosia OTEC — Open Top Epoxy Coated Barrel (Angle 1)" onerror="this.classList.add('d-none'); this.nextElementSibling.classList.remove('d-none');">
+                  <div class="product-detail-fallback d-none">
+                    <i class="fa-solid fa-drum"></i>
+                    <span class="badge bg-besto-orange mb-2">ANGLE 1</span>
+                    <h5 class="fw-bold mb-1">Bestosia OTEC — Open Top Epoxy Coated Barrel</h5>
+                    <p class="small text-secondary mb-0">200–210 Litres • MS / CRCA Steel • Epoxy / Phenolic Epoxy Lacquer</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/bestosia-otec-2.jpg" class="d-block w-100" alt="Bestosia OTEC — Open Top Epoxy Coated Barrel (Angle 2)" onerror="this.classList.add('d-none'); this.nextElementSibling.classList.remove('d-none');">
+                  <div class="product-detail-fallback d-none">
+                    <i class="fa-solid fa-drum"></i>
+                    <span class="badge bg-besto-orange mb-2">ANGLE 2</span>
+                    <h5 class="fw-bold mb-1">Bestosia OTEC — Open Top Epoxy Coated Barrel</h5>
+                    <p class="small text-secondary mb-0">200–210 Litres • MS / CRCA Steel • Epoxy / Phenolic Epoxy Lacquer</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/bestosia-otec-3.jpg" class="d-block w-100" alt="Bestosia OTEC — Open Top Epoxy Coated Barrel (Angle 3)" onerror="this.classList.add('d-none'); this.nextElementSibling.classList.remove('d-none');">
+                  <div class="product-detail-fallback d-none">
+                    <i class="fa-solid fa-drum"></i>
+                    <span class="badge bg-besto-orange mb-2">ANGLE 3</span>
+                    <h5 class="fw-bold mb-1">Bestosia OTEC — Open Top Epoxy Coated Barrel</h5>
+                    <p class="small text-secondary mb-0">200–210 Litres • MS / CRCA Steel • Epoxy / Phenolic Epoxy Lacquer</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#productImageCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#productImageCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
         </div>

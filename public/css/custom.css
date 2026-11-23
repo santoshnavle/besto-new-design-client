@@ -546,7 +546,6 @@
   border-radius: 12px;
   padding: 2rem;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
-  height: 100%;
   border-top: 4px solid var(--besto-orange);
 }
 
@@ -566,6 +565,74 @@
   color: #ffffff;
   padding: 64px 0;
   border-top: 4px solid var(--besto-orange);
+}
+
+/* Product Detail Hero Image Carousel */
+#productImageCarousel .carousel-item {
+  min-height: 360px !important;
+  height: 360px;
+  background-color: var(--light-canvas);
+}
+
+#productImageCarousel .carousel-item img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+#productImageCarousel .product-detail-fallback {
+  min-height: 360px;
+  height: 360px;
+}
+
+#productImageCarousel .carousel-control-prev,
+#productImageCarousel .carousel-control-next {
+  width: 44px;
+  height: 44px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(18, 18, 18, 0.8);
+  border-radius: 50%;
+  opacity: 0.9;
+  transition: background-color 0.2s ease, opacity 0.2s ease;
+}
+
+#productImageCarousel .carousel-control-prev {
+  left: 12px;
+}
+
+#productImageCarousel .carousel-control-next {
+  right: 12px;
+}
+
+#productImageCarousel .carousel-control-prev:hover,
+#productImageCarousel .carousel-control-next:hover {
+  background-color: var(--besto-orange);
+  opacity: 1;
+}
+
+#productImageCarousel .carousel-control-prev-icon,
+#productImageCarousel .carousel-control-next-icon {
+  width: 1.15rem;
+  height: 1.15rem;
+}
+
+#productImageCarousel .carousel-indicators {
+  margin-bottom: 0.75rem;
+}
+
+#productImageCarousel .carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  opacity: 0.5;
+  border: 2px solid #ffffff;
+}
+
+#productImageCarousel .carousel-indicators .active {
+  opacity: 1;
+  transform: scale(1.2);
 }
 
 /* --------------------------------------------------------------------------
