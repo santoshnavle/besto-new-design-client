@@ -163,9 +163,10 @@
             <h3 class="fw-bold mb-2" style="color: var(--industrial-brown);">Commercial Quotation Inquiry</h3>
             <p class="text-secondary small mb-4">Complete this form to receive proforma pricing, delivery schedules, and technical datasheets.</p>
 
-            <form id="contactPageForm" onsubmit="handleContactSubmit(event)">
+            <form id="contactPageForm" action="https://api.web3forms.com/submit" onsubmit="handleContactSubmit(event)">
               <div class="row g-3">
                 <div class="col-md-6">
+                  <input type="hidden" name="access_key" value="05bcce2d-1045-4f33-bf1a-b5b8d49c7066">
                   <label for="cName" class="form-label small fw-bold text-dark">Full Name <span class="text-danger">*</span></label>
                   <div class="input-group">
                     <span class="input-group-text bg-light"><i class="fa-solid fa-user text-muted"></i></span>
