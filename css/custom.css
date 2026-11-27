@@ -309,6 +309,66 @@
   border-left: 5px solid var(--besto-orange);
 }
 
+.team-heading-accent {
+  width: 64px;
+  height: 4px;
+  background-color: var(--besto-orange);
+  border-radius: 2px;
+  margin: 0.75rem auto 0;
+}
+
+.team-member-card {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.team-member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.09) !important;
+  border-color: var(--besto-orange);
+}
+
+.team-avatar-circle {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background-color: #e9ecef;
+  color: #6c757d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem;
+  border: 3px solid #f1f3f5;
+}
+
+.team-email-link {
+  color: var(--besto-orange);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  word-break: break-word;
+  transition: color 0.2s ease;
+}
+
+.team-email-link:hover {
+  color: var(--besto-orange-hover);
+  text-decoration: underline;
+}
+
+.team-phone-link {
+  color: #121212;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.92rem;
+  transition: color 0.2s ease;
+}
+
+.team-phone-link:hover {
+  color: var(--besto-orange);
+}
+
 /* --------------------------------------------------------------------------
    4. Product Catalog Page Styles
    -------------------------------------------------------------------------- */
